@@ -1,5 +1,6 @@
 <img width="1966" height="1378" alt="SH1 0 5" src="https://github.com/user-attachments/assets/94345a36-bb17-49bf-8ac3-fef601176463" />
 <img width="2048" height="1536" alt="dashboard" src="https://github.com/user-attachments/assets/ea24e3f8-c298-46b0-84ca-69bbd04d50d9" />
+<img width="1783" height="1472" alt="reg dashboard" src="https://github.com/user-attachments/assets/69650da5-0673-421e-86ff-6aaf169e7fd1" />
 
 
 🚀 SOLO_HUNTER v1.0.3

@@ -1,7 +1,6 @@
-![Dollar new](https://github.com/user-attachments/assets/d1a9f354-f179-4ac9-a44f-58c248b1757a)
-![dashboard](https://github.com/user-attachments/assets/6368fadb-fea2-440d-beba-9307bf91f8e1)
-![SOLO GBP 1](https://github.com/user-attachments/assets/6e5b8d1c-57ed-449d-8617-ec5b694b2a79)
-![SOLO CAD 1](https://github.com/user-attachments/assets/b8ce7ea5-ea3b-49e5-b650-84bf75c2c695)
+<img width="1966" height="1378" alt="SH1 0 5" src="https://github.com/user-attachments/assets/94345a36-bb17-49bf-8ac3-fef601176463" />
+<img width="2048" height="1536" alt="dashboard" src="https://github.com/user-attachments/assets/ea24e3f8-c298-46b0-84ca-69bbd04d50d9" />
+
 
 🚀 SOLO_HUNTER v1.0.3
 

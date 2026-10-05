@@ -1,3 +1,17 @@
+# New: SOLO HUNTER v1.0.6 — HELIOS mining performance upgrade
+
+The HELIOS HUNTER engine is now available in SOLO HUNTER source for both CYD display variants: hardware SHA-256d acceleration, a second-core software helper, and continued mining during HTTPS refreshes, designed to increase hash rate.
+
+**[Get the v1.0.6 source prerelease](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/tag/v1.0.6)** · [Release notes](RELEASE_NOTES_v1.0.6.md)
+
+This is a **source prerelease**. New firmware binaries, compilation/device validation, and measured SOLO before/after hash rates are pending. No specific speed or percentage gain is claimed. Each `SOLO_HUNTER_v1_0_6_ILI9341` / `SOLO_HUNTER_v1_0_6_ST7789` folder is a complete sketch source folder.
+
+## Previous stable firmware: v1.0.5
+
+The downloads and instructions below apply to v1.0.5 and do not include the HELIOS engine upgrade.
+
+---
+
 <img width="1966" height="1378" alt="SH1 0 5" src="https://github.com/user-attachments/assets/94345a36-bb17-49bf-8ac3-fef601176463" />
 <img width="2048" height="1536" alt="dashboard" src="https://github.com/user-attachments/assets/ea24e3f8-c298-46b0-84ca-69bbd04d50d9" />
 <img width="1783" height="1472" alt="reg dashboard" src="https://github.com/user-attachments/assets/69650da5-0673-421e-86ff-6aaf169e7fd1" />

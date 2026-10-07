@@ -1,29 +1,25 @@
-# New: SOLO HUNTER v1.0.6 — HELIOS mining performance upgrade
-
-The HELIOS HUNTER engine is now available in SOLO HUNTER source for both CYD display variants: hardware SHA-256d acceleration, a second-core software helper, and continued mining during HTTPS refreshes, designed to increase hash rate.
-
-**[Get the v1.0.6 source prerelease](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/tag/v1.0.6)** · [Release notes](RELEASE_NOTES_v1.0.6.md)
-
-This is a **source prerelease**. New firmware binaries, compilation/device validation, and measured SOLO before/after hash rates are pending. No specific speed or percentage gain is claimed. Each `SOLO_HUNTER_v1_0_6_ILI9341` / `SOLO_HUNTER_v1_0_6_ST7789` folder is a complete sketch source folder.
-
-## Previous stable firmware: v1.0.5
-
-The downloads and instructions below apply to v1.0.5 and do not include the HELIOS engine upgrade.
-
----
-
-<img width="1966" height="1378" alt="SH1 0 5" src="https://github.com/user-attachments/assets/94345a36-bb17-49bf-8ac3-fef601176463" />
-<img width="2048" height="1536" alt="dashboard" src="https://github.com/user-attachments/assets/ea24e3f8-c298-46b0-84ca-69bbd04d50d9" />
-<img width="1783" height="1472" alt="reg dashboard" src="https://github.com/user-attachments/assets/69650da5-0673-421e-86ff-6aaf169e7fd1" />
-
-
-🚀 # SOLO HUNTER v1.0.5
+# SOLO HUNTER v1.0.6
 
 SOLO HUNTER is an ESP32 CYD DigiByte wallet display with an optional SHA-256
-solo-mining mode. Version 1.0.5 keeps the original DGB display and adds mining
+solo-mining mode. Version 1.0.6 uses the HELIOS HUNTER engine and retains mining
 statistics to the screen and a separate Mining tab in the Web UI.
 
-[Download SOLO HUNTER v1.0.5](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/tag/v1.0.5)
+[Download SOLO HUNTER v1.0.6](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/tag/v1.0.6)
+
+## HELIOS mining performance upgrade
+
+v1.0.6 adds the HELIOS hardware SHA-256d pipeline and a software helper on the
+second core, designed to increase hash rate. Mining continues during wallet
+and price HTTPS requests. Hardware candidate verification, SHA recovery, and
+software fallback are included.
+
+The project owner compiled, flashed, and confirmed successful hashing on both
+ILI9341 and ST7789 versions. The downloads are the owner's exported complete
+4 MB images. A measured SOLO before/after benchmark has not been provided;
+no numeric speed or percentage gain is claimed. Performance varies by device,
+clock settings, pool, and network activity.
+
+[Read the v1.0.6 release notes](RELEASE_NOTES_v1.0.6.md).
 
 ## Highlights
 
@@ -34,14 +30,14 @@ statistics to the screen and a separate Mining tab in the Web UI.
 - Live Web UI mining dashboard
 - On-screen hashrate, shares, best difficulty, and blocks found
 - Separate ST7789 and ILI9341 firmware
-- Build: `v1.0.5 / HW-SHA-9`
+- Build: `v1.0.6 / HELIOS-ENGINE`
 
 ## Choose Your Firmware
 
 | Screen | Download |
 | --- | --- |
-| ST7789 | [SOLO_HUNTER_v1.0.5_ST7789.bin](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/download/v1.0.5/SOLO_HUNTER_v1.0.5_ST7789.bin) |
-| ILI9341 | [SOLO_HUNTER_v1.0.5_ILI9341.bin](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/download/v1.0.5/SOLO_HUNTER_v1.0.5_ILI9341.bin) |
+| ST7789 | [SOLO_HUNTER_v1.0.6_ST7789.bin](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/download/v1.0.6/SOLO_HUNTER_v1.0.6_ST7789.bin) |
+| ILI9341 | [SOLO_HUNTER_v1.0.6_ILI9341.bin](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/download/v1.0.6/SOLO_HUNTER_v1.0.6_ILI9341.bin) |
 
 Use the file that matches the screen controller in your device. The wrong file
 can produce a black screen, incorrect colors, or a distorted display. If that
@@ -111,9 +107,14 @@ wallet balance increased.
 - The mining `BLK` counter resets with a new mining session.
 - Do not expose the device Web UI directly to the public internet.
 - Verify downloads with the release's
-  [SHA256SUMS.txt](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/download/v1.0.5/SHA256SUMS.txt).
+  [SHA256SUMS.txt](https://github.com/XTVDDICT/SOLO_HUNTER_DGB/releases/download/v1.0.6/SHA256SUMS.txt).
 
 ## Source Files
+
+Complete sketches: `SOLO_HUNTER_v1_0_6_ILI9341` and
+`SOLO_HUNTER_v1_0_6_ST7789`. The dashboard identifies this version as
+**v1.0.6 / HELIOS-ENGINE**.
+
 
 Use the `.ino` file matching the screen controller and keep
 `SoloHunterMiner.cpp`, `SoloHunterMiner.h`, `SoloHunterSha256.cpp`, and
@@ -121,4 +122,3 @@ Use the `.ino` file matching the screen controller and keep
 
 This is hobby firmware. Flashing and cryptocurrency mining are performed at
 your own risk.
-
